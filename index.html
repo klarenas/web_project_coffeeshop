@@ -3,7 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cafe de especialidad</title>
+    <title>Cafeteria TripleTen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <meta
       name="description"
       content="Esta la pagina para reservar tu mesa en la cafeteria de TripleTen"
@@ -11,31 +26,59 @@
     <meta name="author" content="Kl@renas" />
     <meta name="keywords" content="SEO, optimización web, HTML, VSCode" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./index.html" />
     <link rel="stylesheet" href="./favicon_coffee_bean.ico" />
   </head>
   <body>
     <div class="page">
-      <header>
-        <h1>Cafe de</h1>
-        <nav>
-          <ul>
-            <li><a href="#">Inicio</a>git status</li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo de la Cafeteria Triple Peaks"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recetas">Recetas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reserva">Reservar una mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#contactos">Contactos</a>
+            </li>
           </ul>
         </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">Cafe de especialidad</h1>
+            <p class="header__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Ilustración Dentro de la cafeteria de la biblioteca"
+            class="header__image"
+          />
+        </div>
       </header>
 
-      <main>
-        <section>
-          <h2>Bienvenido</h2>
+      <main class="content">
+        <section class="recetas" id="recetas">
+          <h2>Recetas</h2>
           <p>Este es el contenido principal de la página.</p>
+        </section>
+        <section class="reservas" id="reservas">
+          <h2>Reservar</h2>
+          <p>Reservar una mesa.</p>
         </section>
       </main>
 
-      <footer>
-        <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+      <footer class="footer">
+        <div class="footer"></div>
+        <p class="footer__copyright">© Triple Peaks 2025 Kl@renas</p>
       </footer>
     </div>
   </body>
