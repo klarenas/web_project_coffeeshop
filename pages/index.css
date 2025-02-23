@@ -124,10 +124,10 @@
   margin: 0;
 }
 
-.header__adress {
-  display: flex;
-  margin-top: auto;
+.header__address {
   position: absolute;
   right: 80px;
-  bottom: 20;
+  margin-bottom: 20px;
+  line-height: 20px;
+  bottom: 40px;
 }
