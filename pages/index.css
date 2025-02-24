@@ -45,6 +45,7 @@
   list-style-type: none;
   flex-wrap: nowrap;
 }
+
 .nav__link {
   color: #000000;
   text-decoration: none;
@@ -132,14 +133,35 @@
   bottom: 40px;
 }
 
-.recetas {
+.recipes {
   position: relative;
-  padding: 100px 80px 0;
+  padding: 100px 80px 215px;
   background-color: #0a2850;
   color: #fff;
   min-height: 720px;
   box-sizing: border-box;
   z-index: 2;
+}
+
+.recipes__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  margin-bottom: 24px;
+  max-width: 580px;
+}
+
+.recipes__subtitle {
+  font-family: "Noto Serif", Times, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  max-width: 438px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
 }
 
 .recipes__image {
@@ -153,48 +175,53 @@
   object-position: center;
 }
 
-.videos {
-  position: relative;
+.recipes__videos {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  z-index: 2;
-  width: 100%;
-}
-
-.videos__iframe {
-  display: flex;
-  list-style-type: none;
-  gap: 40px;
-  padding: 0;
-  margin: 0;
+  flex-direction: row;
   justify-content: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+.recipes__video-item {
+  width: 480px;
+}
+
+.recipes__iframe {
   width: 100%;
-  max-width: 1000px;
-}
-
-.videos__list {
-  list-style-type: none;
-  width: 480px;
-}
-
-.videos__item {
-  width: 480px;
   height: 273px;
   border: none;
   margin-bottom: 24px;
 }
 
-.videos__paragraph {
+.recipes__video-caption {
   display: flex;
   justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  line-height: 30px;
   color: #fff;
+  font-size: 20px;
   margin: 0;
 }
 
-.videos__paragraph span {
+.recipes__video-caption span {
   display: block;
+}
+
+.reservas {
+  background-color: #fff;
+  padding: 100px 0 120px;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 60px 102px 60px 80px;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
 }
