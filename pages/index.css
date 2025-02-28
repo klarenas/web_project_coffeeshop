@@ -1,7 +1,7 @@
-@import url(../blocks/page.css);
-@import url(../blocks/receipes);
-@import url(../blocks/footer);
-@import url(../blocks/form);
-@import url(../blocks/header);
-@import url(../blocks/nav);
-@import url(../blocks/reservation);
+@import url("../blocks/page.css");
+@import url("../blocks/recipes.css");
+@import url("../blocks/footer");
+@import url("../blocks/form");
+@import url("../blocks/header");
+@import url("../blocks/nav");
+@import url("../blocks/reservation");
