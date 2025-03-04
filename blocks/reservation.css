@@ -34,11 +34,6 @@
   z-index: 1;
 }
 
-.reservas {
-  background-color: #3e5170;
-  padding: 100px 0 120px;
-}
-
 .reservation__form {
   margin: 0 auto;
   max-width: 385px;
