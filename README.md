@@ -1,4 +1,4 @@
-# Triple Espresso
+# Triple Espresso ☕
 
 _Acá va un párrafo que describa lo que es el proyecto_
 
@@ -8,7 +8,7 @@ _Iniciando en el desarrollo de proyectos._
 
 Es la página de la biblioteca **Triple Peaks** Cafe de especialidad la seccioin muestra los videos insertados con <iframe>
 
-## Footer ⚙️
+## Footer 🤓
 
 _Agrega enlaces a redes sociales_
 
@@ -21,7 +21,7 @@ En el formulario formulario se  encuentran caracteristicas (type="text, number, 
 Todos los campos están organizados dentro de un fieldset y cada campo de entrada tiene su correspondiente etiqueta (label)
 ```
 
-### Mejoras sugeridas 🔧
+### Mejoras sugeridas ⚙️
 
 _Se recomienda una serie de mejoras que pueden hacer mas producticva su página_
 
